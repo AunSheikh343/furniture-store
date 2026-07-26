@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import styles from "./Hero.module.css";
 
-import heroImage from "../../assets/hero/hero.jpg.jpg";
+import heroImage from "../../assets/hero/hero.jpg";
 
 function Hero() {
   return (
