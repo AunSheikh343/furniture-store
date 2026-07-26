@@ -1,0 +1,63 @@
+.sidebar{
+
+    background:#fafafa;
+
+    padding:30px;
+
+    border-radius:12px;
+
+}
+
+.sidebar h3{
+
+    margin:30px 0 15px;
+
+}
+
+.sidebar ul{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.sidebar li{
+
+    margin-bottom:12px;
+
+    cursor:pointer;
+
+}
+
+.colors{
+
+    display:flex;
+
+    gap:12px;
+
+}
+
+.colors span{
+
+    width:30px;
+
+    height:30px;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+}
+
+.black{
+    background:black;
+}
+
+.gray{
+    background:gray;
+}
+
+.beige{
+    background:#d7c4a3;
+}

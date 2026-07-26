@@ -1,0 +1,18 @@
+.banner{
+    height:320px;
+    background:url("../../assets/images/shop-banner.jpg") center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.banner h1{
+    font-size:60px;
+    color:#222;
+}
+
+.banner p{
+    margin-top:15px;
+    font-weight:500;
+}

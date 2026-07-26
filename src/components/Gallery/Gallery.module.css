@@ -1,0 +1,52 @@
+.section{
+    padding:100px 0;
+}
+
+.small{
+    text-align:center;
+    color:#777;
+    margin-bottom:10px;
+}
+
+.section h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:60px;
+}
+
+.grid{
+
+    columns:3 250px;
+    column-gap:20px;
+
+}
+
+.card{
+
+    margin-bottom:20px;
+
+    overflow:hidden;
+
+    border-radius:14px;
+
+    break-inside:avoid;
+
+}
+
+.card img{
+
+    width:100%;
+
+    display:block;
+
+    transition:.5s;
+
+    cursor:pointer;
+
+}
+
+.card:hover img{
+
+    transform:scale(1.08);
+
+}

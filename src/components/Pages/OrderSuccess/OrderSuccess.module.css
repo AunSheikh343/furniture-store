@@ -1,0 +1,21 @@
+.success {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.success h1 {
+  margin-bottom: 1rem;
+}
+
+.success p {
+  margin-bottom: 2rem;
+}
+
+.success a {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #111;
+  color: #fff;
+  border-radius: 0.75rem;
+  text-decoration: none;
+}

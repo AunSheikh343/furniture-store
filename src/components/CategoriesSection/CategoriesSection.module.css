@@ -1,0 +1,59 @@
+.section{
+
+    padding:100px 0;
+
+}
+
+.section h2{
+
+    text-align:center;
+
+    font-size:40px;
+
+    color:var(--text);
+
+}
+
+.section p{
+
+    text-align:center;
+
+    color:#777;
+
+    margin:15px auto 60px;
+
+    max-width:600px;
+
+    line-height:1.8;
+
+}
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+}
+
+@media(max-width:992px){
+
+.grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}

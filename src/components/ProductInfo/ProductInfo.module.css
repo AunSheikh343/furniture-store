@@ -1,0 +1,14 @@
+.info {
+  display: grid;
+  gap: 1rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.price del {
+  color: #888;
+}

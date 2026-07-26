@@ -1,0 +1,59 @@
+.summary{
+
+background:#FCF8F3;
+
+padding:40px;
+
+border-radius:12px;
+
+}
+
+.summary h2{
+
+margin-bottom:30px;
+
+}
+
+.summary div{
+
+display:flex;
+
+justify-content:space-between;
+
+margin:20px 0;
+
+}
+
+.total{
+
+font-size:24px;
+
+font-weight:bold;
+
+}
+
+.summary button{
+
+width:100%;
+
+padding:16px;
+
+margin-top:30px;
+
+background:var(--primary);
+
+color:white;
+
+border:none;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.summary button:hover{
+
+background:#9d7422;
+
+}
