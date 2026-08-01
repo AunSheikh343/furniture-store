@@ -1,0 +1,73 @@
+.contact {
+    padding: 90px 0;
+}
+
+.contact__grid {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 50px;
+    align-items: start;
+}
+
+.contact__hero h1 {
+    font-size: clamp(2.5rem, 3vw, 4rem);
+    margin-bottom: 20px;
+}
+
+.contact__hero p {
+    max-width: 580px;
+    line-height: 1.8;
+    color: var(--lightText);
+    margin-bottom: 35px;
+}
+
+.contact__details {
+    display: grid;
+    gap: 18px;
+    margin-bottom: 40px;
+}
+
+.contact__detail {
+    padding: 24px 28px;
+    background: var(--light);
+    border-radius: 20px;
+}
+
+.contact__detail h3 {
+    margin-bottom: 10px;
+}
+
+.contact__detail p {
+    line-height: 1.7;
+    color: var(--lightText);
+}
+
+.contact__form {
+    display: grid;
+    gap: 18px;
+}
+
+.contact__form input,
+.contact__form textarea {
+    width: 100%;
+    padding: 18px 20px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    font-family: inherit;
+    resize: vertical;
+}
+
+.contact__form button {
+    width: fit-content;
+    padding: 16px 40px;
+    background: var(--primary);
+    color: white;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+@media (max-width: 992px) {
+    .contact__grid {
+        grid-template-columns: 1fr;
+    }
+}
